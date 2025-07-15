@@ -16,7 +16,6 @@ EPA Victoria (Environment Protection Authority Victoria) is the environmental re
 ---
 
 ## 🧭 Features
-
 - Dynamic filters for suburb and pollutant selection
 - Calendar heatmaps of daily pollutant levels across 2024
 - Smooth and responsive R Shiny UI
@@ -30,9 +29,8 @@ EPA Victoria (Environment Protection Authority Victoria) is the environmental re
 | File | Description |
 |------|-------------|
 | `app.R` | Main Shiny application |
-| `2024_All_sites_air_quality_hourly_avg.xlsx` | Cleaned EPA dataset (hourly → daily avg) |
-| `Victoria_Air_Quality_Visualisation.Rproj` | RStudio project file |
-| `images/dashboard.png` | Screenshot for GitHub preview |
+| `Victoria Air Quality Visualisation - EPA 2024 Data.Rproj` | RStudio project file |
+| `dashboard.png` | Screenshot for GitHub preview |
 | `README.md` | This documentation file |
 
 ---
