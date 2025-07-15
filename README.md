@@ -1,6 +1,6 @@
 # 🌫️ Victoria Air Quality Dashboard (EPA 2024)
 
-This interactive R Shiny application visualises EPA Victoria’s 2024 air quality data. It allows users to select a **suburb** and **pollutant** to explore daily pollutant levels throughout the year, presented in an intuitive calendar-style heatmap.
+This interactive R Shiny application visualises EPA Victoria’s 2024 air quality data. It allows users to select a **suburb** and **pollutant** to explore daily pollutant levels throughout the year, presented in an intuitive calendar-style heatmap. The Data can be obtained from EPA's official [website](https://discover.data.vic.gov.au/dataset/epa-air-watch-all-sites-air-quality-hourly-averages-yearly).
 
 🔗 [Live App](https://sulemanrasheed.shinyapps.io/Victoria_Air_Quality_EPA_2024_Data/)
 
