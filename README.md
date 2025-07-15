@@ -38,8 +38,8 @@ EPA Victoria (Environment Protection Authority Victoria) is the environmental re
 ## 🛠️ Tech Stack
 
 - **Language**: R  
-- **Libraries**: `shiny`, `ggplot2`, `lubridate`, `openair`, `shinydashboard`  
-- **Visualization Type**: Time-series calendar heatmaps
+- **Libraries**: `shiny`, `lubridate`, `openair`, `shinydashboard`  
+- **Visualization Type**: Time-series calendar heatmaps (Geo-spatial data)
 
 ---
 
