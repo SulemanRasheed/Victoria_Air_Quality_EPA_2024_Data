@@ -1,57 +1,62 @@
-# 🌫️ Interactive Air Quality Visualisation – EPA Victoria (2024)
+# 🌫️ Victoria Air Quality Dashboard (EPA 2024)
 
-This project is an interactive R Shiny dashboard designed to visualize EPA Victoria’s 2024 air quality data.  
-It enables users to explore daily pollutant levels across various suburbs using intuitive calendar-style plots.
+This interactive R Shiny application visualises EPA Victoria’s 2024 air quality data. It allows users to select a **suburb** and **pollutant** to explore daily pollutant levels throughout the year, presented in an intuitive calendar-style heatmap.
 
 🔗 [Live App](https://sulemanrasheed.shinyapps.io/Victoria_Air_Quality_EPA_2024_Data/)
 
 ---
 
+## 📷 Dashboard Preview
+
+![Dashboard Screenshot](dashboard.png)
+
+---
+
 ## 🧭 Features
 
-- Calendar-style pollutant plots by suburb
-- Dropdown filters for suburb and pollutant selection
-- Daily-level pollutant concentrations visualized over the year
-- Designed for public accessibility and environmental monitoring
-- Combines geospatial and time-series visualisation techniques
+- Dynamic filters for suburb and pollutant selection
+- Calendar heatmaps of daily pollutant levels across 2024
+- Smooth and responsive R Shiny UI
+- Visual cues for high pollution periods
+- Designed for public accessibility, environmental monitoring, and policy insights
 
 ---
 
-## 📁 Project Structure
+## 📁 Files in This Repo
 
-| File/Folder         | Description                                  |
-|---------------------|----------------------------------------------|
-| `app.R`             | Main Shiny app file                          |
-| `data/`             | Cleaned EPA Victoria air quality data (2024) |
-| `www/`              | Custom CSS (if applicable)                   |
-| `README.md`         | Project documentation                        |
+| File | Description |
+|------|-------------|
+| `app.R` | Main Shiny application |
+| `2024_All_sites_air_quality_hourly_avg.xlsx` | Cleaned EPA dataset (hourly → daily avg) |
+| `Victoria_Air_Quality_Visualisation.Rproj` | RStudio project file |
+| `images/dashboard.png` | Screenshot for GitHub preview |
+| `README.md` | This documentation file |
 
 ---
 
-## 🛠️ Tools and Libraries
+## 🛠️ Tech Stack
 
-- **R Shiny** for interactive dashboard development  
-- **ggplot2** for plotting  
-- **openair** for air quality data handling  
-- **lubridate** for date parsing and manipulation  
-- **shinydashboard** for UI layout
+- **Language**: R  
+- **Libraries**: `shiny`, `ggplot2`, `lubridate`, `openair`, `shinydashboard`  
+- **Visualization Type**: Time-series calendar heatmaps
 
 ---
 
 ## 🌏 Data Source
 
-Data was obtained from the [EPA Victoria Open Data Portal](https://www.epa.vic.gov.au/for-community/environmental-information/air-quality)
+Data from the [EPA Victoria Open Data Portal](https://www.epa.vic.gov.au/for-community/environmental-information/air-quality)
 
 ---
 
-## 👨‍💻 Author
+## 🧑‍💻 Author
 
 **Suleman Rasheed**  
 PhD in Biomedical Engineering | Data Scientist  
-📫 [Email](mailto:SulemanRasheedEngr@gmail.com) • [LinkedIn](https://www.linkedin.com/in/suleman-rasheed/)
+📫 [SulemanRasheedEngr@gmail.com](mailto:SulemanRasheedEngr@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/suleman-rasheed)
 
 ---
 
 ## 📄 License
 
-This project is provided for educational and demonstration purposes. Attribution appreciated.
+This project is intended for educational and public outreach purposes. Please attribute if reusing.
