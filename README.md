@@ -43,12 +43,6 @@ EPA Victoria (Environment Protection Authority Victoria) is the environmental re
 
 ---
 
-## 🌏 Data Source
-
-Data from the [EPA Victoria Open Data Portal](https://www.epa.vic.gov.au/for-community/environmental-information/air-quality)
-
----
-
 ## 🧑‍💻 Author
 
 **Suleman Rasheed**  
